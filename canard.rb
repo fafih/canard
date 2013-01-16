@@ -5,6 +5,10 @@ class Duck
   end
 
   def swim
+    puts "I can swim"
   end
 
 end
+
+canard=Duck.new
+canard.swim 
