@@ -1,11 +1,19 @@
 class Duck
   # Salut Fafih
   def speaks
-  "coin coin"
-def Time.now.to_s
-    puts "Il est 18H locale"
+    return "coin coin"
+  end
+
+  def current_datetime
+    puts "Il est #{Time.now.to_s} locale"
+	return Time.now.to_s
+  end
+
+  def swim
+    puts "I can swim."
   end
 end
 
-canard=Duck.new
-canard.Time.now.to_s
+canard = Duck.new
+canard.current_datetime
+canard.swim
