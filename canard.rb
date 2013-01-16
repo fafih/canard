@@ -1,6 +1,6 @@
 class Duck
   # Salut Fafih
-  def speaks
+  speaks
   "coin coin"
   end
 end
