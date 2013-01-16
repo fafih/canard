@@ -1,8 +1,10 @@
 class Duck
   # Salut Fafih
   def speaks
-  "coin coin"
-  if beg= coin coin
-  elsif n'import koi
+    "coin coin!"
   end
+
+  def swim
+  end
+
 end
