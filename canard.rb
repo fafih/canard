@@ -8,4 +8,4 @@ def Time.now.to_s
 end
 
 canard=Duck.new
-canard.Time.now.to
+canard.Time.now.to_s
